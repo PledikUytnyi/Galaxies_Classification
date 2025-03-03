@@ -35,7 +35,7 @@ We see that their shapes and peaks look different. This is because there are dif
 
 ## Tools and methods used 
 
-The classification is performed with the Random Forest algorithm. Libraries used: sklearn, pandas, numpy, matplotlib, h5py and the astrophysics library healpy. 
+The classification is performed with the Random Forest algorithm. Libraries used: scikit-learn, pandas, numpy, matplotlib, h5py and the astrophysics library healpy. 
 
 ## Project files
 
