@@ -9,12 +9,18 @@ A common way to classify the galaxies into these subclasses is to use ML models 
 
 While this is a very common approach to classification, there are some problems. Sometimes images are ambigious and blurred. Here are some examples: 
 
+<p align="center">
+  <img src="images/Galaxy-Zoo-project.jpg" alt="First Image Description" width="200"/>
+  <img src="images/galaxy2" alt="Second Image Description" width="200"/>
+</p>
+
 So the ML models based on images would struggle to correctly classify such galaxies. We may try to rely on some other data that may contain information related to the type of galaxy. In this project we use optical spectral data of galaxies to classify them. 
 
 > [!NOTE]
 > Spectra contains information about the amount of light that a galaxy emits, as a function of its wavelength (or basically a color). 
 
 Compare the the spectra of a **elliptical** and **spiral** galaxies: 
+![](images/spectra)
 
 We see that their shapes and peaks look different. This is because there are different physical processes that are going on in these galaxies. So we may try to use this information to distinguish between different classes. As a starting point we will try to distinguish between larger classes, such as elliptical and spiral. In our labeled data there is also an "uncertain" class. 
 
