@@ -90,3 +90,4 @@ Number of samples 28488
 
 Our model successfully differentiates between spiral and elliptical galaxy classes. However, it is less effective at distinguishing between the uncertain class and the  elliptical/spiral classes. This is most probably due to a fact that the uncertain class contains some mislabeled elliptical and spiral samples. We may try to apply some clusterisation methods to the uncertain class and sort out the elliptical/spiral subclasses. 
 We may also use the latest version of the data from the Galaxy Zoo project, that contains more detailed information about elliptical and spiral galaxies, and try to use the spectra to distinguish other features, such as shape of the galaxy core, or irregular shapes. 
+
