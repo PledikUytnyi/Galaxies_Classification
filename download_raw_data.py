@@ -11,7 +11,7 @@ wget_path = '/opt/homebrew/bin/wget'
 
 def download_healpix(h):
     bash_script = (
-        f"{wget_path} -r -np -nH --cut-dirs=1 -R 'index.html*' -P ~/Desktop/Galaxy_Classification/spectrum_data "
+        f"{wget_path} -r -np -nH --cut-dirs=1 -R 'index.html*' -P ~/your_folder/spectrum_data "
         f"https://users.flatironinstitute.org/~polymathic/data/MultimodalUniverse/v1/sdss/sdss/healpix={h}/"
     )
     subprocess.run(bash_script, shell=True, capture_output=True, text=True)
